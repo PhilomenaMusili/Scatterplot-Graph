@@ -17,8 +17,8 @@ let drawCanvas= () =>{
 
 let generateScales = () =>{
     xScale = d3.scaleLinear()
-                .domain([d3.min(values,item=>item["Year"]-1),d3.max(values,item=>item["Year"]+1)])
-               .range([padding,width-padding])
+            .domain([d3.min(values,item=>item["Year"]-1),d3.max(values,item=>item["Year"]+1)])
+            .range([padding,width-padding])
 
     yScale = d3.scaleTime()
                 .domain([d3.min(values,item=> new Date(item["Seconds"]*1000)),d3.max(values,item=> new Date(item["Seconds"]*1000))])
