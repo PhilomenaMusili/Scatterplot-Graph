@@ -2,7 +2,7 @@
 
 This project is a data visualization of cyclist data using D3.js. It creates a scatter plot to display information about cyclists, including their race times and any doping allegations.
 ## Preview
-![Preview](.png)
+![Preview](scatterplot.png)
 ## Getting Started
 
 To run the project locally, follow these steps:
