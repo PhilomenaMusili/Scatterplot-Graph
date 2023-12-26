@@ -7,6 +7,7 @@ This project is a data visualization of cyclist data using D3.js. It creates a s
 
 To run the project locally, follow these steps:
 
+
 1. Clone the repository:
 
 git clone https://github.com/your-username/your-repository.git
@@ -28,6 +29,7 @@ git clone https://github.com/your-username/your-repository.git
 ## Data Source
 
 The cyclist data used in this project is sourced from [freeCodeCamp](https://github.com/freeCodeCamp/ProjectReferenceData).
+
 
 ## License
 
