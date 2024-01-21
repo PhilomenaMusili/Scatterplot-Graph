@@ -101,4 +101,5 @@ req.onload = ()=>{
     drawPoints();
     generateAxis();
 }
+
 req.send()
